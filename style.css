@@ -42,6 +42,13 @@ body {
   background: white;
   border-radius: 20px;
 }
+
+#draw{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 .line2 {
   position: absolute;
   top: 13%;
