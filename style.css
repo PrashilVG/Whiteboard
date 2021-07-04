@@ -24,7 +24,7 @@ body {
 }
 .select {
   position: absolute;
-  left: 30px;
+  left: 33px;
   top: 40px;
   font-size: 22px;
 }
@@ -46,7 +46,7 @@ body {
   position: absolute;
   top: 13%;
   left: 6.6%;
-  height: 42%;
+  height: 51%;
   border: 0.5px solid #b5b5b5;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 .black_cap {
   position: absolute;
-  left: 53px;
+  left: 53.5px;
   top: 344px;
 }
 .black {
@@ -86,7 +86,7 @@ body {
   height: 100px;
   background-color: rgb(230, 230, 230);
   position: absolute;
-  top: 420px;
+  top: 490px;
   border-radius: 20px;
 }
 .redbg {
@@ -153,6 +153,34 @@ body {
   background-color: rgb(247, 247, 247);
   position: absolute;
   top: 255px;
+  left: 110px;
+  border-radius: 15px;
+}
+.circle{
+    position: absolute;
+    top: 340px;
+    left: 120px;
+}
+.circlebg{
+  width: 60px;
+  height: 60px;
+  background-color: rgb(247, 247, 247);
+  position: absolute;
+  top: 330px;
+  left: 110px;
+  border-radius: 15px;
+}
+.triangle{
+  position: absolute;
+  top: 415px;
+  left: 120px;
+}
+.trianglebg{
+  width: 60px;
+  height: 60px;
+  background-color: rgb(247, 247,247);
+  position: absolute;
+  top: 405px;
   left: 110px;
   border-radius: 15px;
 }
