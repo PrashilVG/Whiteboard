@@ -27,7 +27,7 @@ body{
 .select{
     
     position: absolute;
-    left: 35px;
+    left: 30px;
     top: 40px;
     font-size: 22px;
 }
@@ -49,32 +49,45 @@ body{
     position: absolute;
     top: 13%;
     left: 6.6%;
-    height: 85.3%;
+    height: 42%;
     border: .5px solid #B5B5B5;
 }
 
 .marker_black{
     position: absolute;
-    left: 40px;
-    top: 110px;
+    left: 38px;
+    top: 105px;
+}
+.black_cap{
+    position: absolute;
+    left: 53px;
+    top: 344px;
 }
 .black{
     position: absolute;
     top: 140px;
-    left: 46px;
+    left: 44px;
 }
 .blue{
     position: absolute;
     top: 190px;
-    left: 46px;
+    left: 44px;
 }
 .red{
     position: absolute;
     top: 240px;
-    left: 46px;
+    left: 44px;
 }
 .green{
     position: absolute;
     top: 290px;
-    left: 46px;
+    left: 44px;
+}
+.color-selector{
+    margin-left: 6.5px;
+     width: 140px;
+     height: 100px;
+     background-color: blue;
+     position: absolute;
+     top: 450px;
 }
