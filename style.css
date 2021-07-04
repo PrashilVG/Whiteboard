@@ -2,38 +2,42 @@
     margin: 0;
 }
 body{
+    
     background: black;
 }
 .frame{
     display: flex;
-    /* align-items: flex-end; */
-    justify-content: flex-end ;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 10px;
     width: 100vw;
     height: 100vh;
+   
 }
 .tools{
-    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+    height: 95%;
     width: 10%;
-    background: red;
-}
-/* .tools-2{
-    height: 8%;
-    width: 80%;
-    background: green;
-    align-self: flex-start;
-} */
-.board{
-    display:flex;
-    width:90% ;
-    height:100% ;
     background: white;
     border-radius: 20px;
 }
-/* .tools{
-
-    width: 100px;
-    height: 50px;
-    background: red;
-    align-content: center;
-    justify-content: center;
-} */
+.select{
+    margin-top: 40px;
+    /* position: absolute;
+    left: 66px;
+    top: 37px; */
+}
+.line{
+    width: 2px;
+    border: 2px solid black;
+}
+.board{
+    display:flex;
+    width:85% ;
+    height:95% ;
+    background: white;
+    border-radius: 20px;
+}
