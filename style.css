@@ -52,7 +52,7 @@ body {
   position: absolute;
   top: 13%;
   left: 6.6%;
-  height: 51%;
+  height: 53%;
   border: 0.5px solid #b5b5b5;
 }
 
@@ -92,7 +92,7 @@ body {
   height: 100px;
   background-color: rgb(230, 230, 230);
   position: absolute;
-  top: 490px;
+  top: 510px;
   border-radius: 20px;
 }
 .redbg {
