@@ -1,8 +1,8 @@
 const canvas = document.querySelector('#draw');
 const ctx = canvas.getContext('2d');
 const board = document.querySelector('.board');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = 1328.55;
+canvas.height = 722;
 ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
@@ -98,4 +98,4 @@ size.addEventListener('mouseup', ()=>{ctx.lineWidth = size.value*2});
 //reset
 
 const reset = document.querySelector('.reset');
-reset.addEventListener('click', ()=>{ctx.clearRect(0,0,canvas.width,canvas.height); board.style.background = 'white'});
+reset.addEventListener('click', ()=>{ctx.clearRect(0,0,canvas.width,canvas.height); board.style.background = 'style.background'});
