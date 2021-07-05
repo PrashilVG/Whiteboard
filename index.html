@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -21,7 +24,7 @@
         <div class="eraser">
           <img src="./Jamboard/Eraser.svg" />
         </div>
-        <div class="straightlinebg"></div>
+        <!-- <div class="straightlinebg"></div>    
         <div class="straightline">
           <img src="./Jamboard/Straight_Line.svg" />
         </div>
@@ -36,12 +39,12 @@
         <div class="trianglebg"></div>
         <div class="triangle">
           <img src="./Jamboard/Triangle_Shape.svg" />
-        </div>
+        </div> -->
         <div class="marker_black">
           <img src="./Jamboard/pen_body.svg" />
         </div>
         <div class="black_cap">
-          <img src= "./Jamboard/black_cap.svg" />
+          <img src="./Jamboard/black_cap.svg" />
         </div>
         <div class="black">
           <img src="./Jamboard/black_color.svg" />
@@ -69,24 +72,22 @@
             <img src="./Jamboard/white_color.svg" />
           </div>
           <div class="cyanbg">
-            <img src="./Jamboard/cyan_color.svg">
+            <img src="./Jamboard/cyan_color.svg" />
           </div>
-          
         </div>
         <div class="size">
-          <input type="range"  name="" id="pen-size" min="1" max="50">
+          <input type="range" name="" id="pen-size" min="1" max="50" />
         </div>
         <div class="">
-          <button class="reset" value="reset"><i class="fa fa-refresh "></i></button>
+          <button class="reset" value="reset">
+            <i class="fa fa-refresh"></i>
+          </button>
           <!-- <input type="button" value="reset" name="" id="" ><i class="fa fa-refresh "></i> -->
         </div>
-
       </div>
-     
 
       <div class="board">
         <canvas id="draw"></canvas>
-        
       </div>
     </div>
     <script src="script.js"></script>

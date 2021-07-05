@@ -51,22 +51,22 @@ canvas.addEventListener('mousedown', (e) => {
 });
 
 
-canvas.addEventListener('mousemove touchstart', draw);
-canvas.addEventListener('mouseup touchend', () => isDrawing = false);
-canvas.addEventListener('mouseout touchcancel' , () => isDrawing = false);
+canvas.addEventListener('mousemove',  draw);
+canvas.addEventListener('mouseup',  () => isDrawing = false);
+canvas.addEventListener('mouseout',  () => isDrawing = false);
 
 // change color
 const black = document.querySelector('.black');
-black.addEventListener('click', ()=> {ctx.strokeStyle = 'black'});
+black.addEventListener('click', ()=> {ctx.strokeStyle = '#000000'});
 
 const blue = document.querySelector('.blue');
-blue.addEventListener('click', ()=> {ctx.strokeStyle = 'blue'});
+blue.addEventListener('click', ()=> {ctx.strokeStyle = '#0084FF'});
 
 const red = document.querySelector('.red');
-red.addEventListener('click', ()=> {ctx.strokeStyle = 'red'});
+red.addEventListener('click', ()=> {ctx.strokeStyle = '#FF0000'});
 
 const green = document.querySelector('.green');
-green.addEventListener('click', ()=> {ctx.strokeStyle = 'green'});
+green.addEventListener('click', ()=> {ctx.strokeStyle = '#14FF00'});
 
 //change bgcolor
 
@@ -98,4 +98,6 @@ size.addEventListener('mouseup', ()=>{ctx.lineWidth = size.value*2});
 //reset
 
 const reset = document.querySelector('.reset');
-reset.addEventListener('click', ()=>{ctx.clearRect(0,0,canvas.width,canvas.height); board.style.background = 'style.background'});
+reset.addEventListener('click', ()=>{ctx.clearRect(0,0,canvas.width,canvas.height); board.style.background = 'white'});
+
+
