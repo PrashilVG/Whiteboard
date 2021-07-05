@@ -1,206 +1,221 @@
 * {
-  margin: 0;
+	margin: 0;
 }
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background: black;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background: black;
 }
 .frame {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: space-evenly;
-  width: 1563px;
-  height: 760px;
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	justify-content: space-evenly;
+	width: 1563px;
+	height: 760px;
 }
 .tools {
-  /* display: flex;
+	/* display: flex;
     justify-content: center; */
-  margin-top: 15px;
-  height: 95%;
-  width: 10%;
-  background: white;
-  border-radius: 20px;
+	margin-top: 15px;
+	height: 95%;
+	width: 10%;
+	background: white;
+	border-radius: 20px;
 }
 .select {
-  position: absolute;
-  left: 33px;
-  top: 40px;
-  font-size: 22px;
+	position: absolute;
+	left: 33px;
+	top: 40px;
+	font-size: 22px;
 }
 .line1 {
-  position: absolute;
-  top: 13%;
-  width: 10%;
-  border: 0.5px solid #b5b5b5;
+	position: absolute;
+	top: 13%;
+	width: 10%;
+	border: 0.5px solid #b5b5b5;
 }
 .board {
-  display: flex;
-  margin-top: 15px;
-  width: 85%;
-  height: 95%;
-  background: white;
-  border-radius: 20px;
+	display: flex;
+	margin-top: 15px;
+	width: 85%;
+	height: 95%;
+	background: white;
+	border-radius: 20px;
 }
 
-#draw{
-    border-radius: 20px;
+#draw {
+	border-radius: 20px;
 }
 
-.line2{
-  position: absolute;
-  top: 13%;
-  left: 6.6%;
-  height: 53%;
-  border: 0.5px solid #b5b5b5;
+.line2 {
+	position: absolute;
+	top: 13%;
+	left: 6.6%;
+	height: 53%;
+	border: 0.5px solid #b5b5b5;
 }
 
 .marker_black {
-  position: absolute;
-  left: 38px;
-  top: 105px;
+	position: absolute;
+	left: 38px;
+	top: 105px;
 }
 .black_cap {
-  position: absolute;
-  left: 53.5px;
-  top: 344px;
+	position: absolute;
+	left: 53.5px;
+	top: 344px;
 }
 .black {
-  position: absolute;
-  top: 140px;
-  left: 44px;
+	position: absolute;
+	top: 140px;
+	left: 44px;
 }
 .blue {
-  position: absolute;
-  top: 190px;
-  left: 44px;
+	position: absolute;
+	top: 190px;
+	left: 44px;
 }
 .red {
-  position: absolute;
-  top: 240px;
-  left: 44px;
+	position: absolute;
+	top: 240px;
+	left: 44px;
 }
 .green {
-  position: absolute;
-  top: 290px;
-  left: 44px;
+	position: absolute;
+	top: 290px;
+	left: 44px;
 }
 .color-selector {
-  margin-left: 6.5px;
-  width: 140px;
-  height: 100px;
-  background-color: rgb(230, 230, 230);
-  position: absolute;
-  top: 510px;
-  border-radius: 20px;
+	margin-left: 6.5px;
+	width: 140px;
+	height: 100px;
+	background-color: rgb(230, 230, 230);
+	position: absolute;
+	top: 510px;
+	border-radius: 20px;
 }
 .redbg {
-  position: absolute;
-  top: 7px;
-  left: 7px;
+	position: absolute;
+	top: 7px;
+	left: 7px;
 }
 .bluebg {
-  position: absolute;
-  top: 7px;
-  left: 50px;
+	position: absolute;
+	top: 7px;
+	left: 50px;
 }
 .yellowbg {
-  position: absolute;
-  top: 7px;
-  left: 93px;
+	position: absolute;
+	top: 7px;
+	left: 93px;
 }
 .whitebg {
-  position: absolute;
-  top: 50px;
-  left: 7px;
+	position: absolute;
+	top: 50px;
+	left: 7px;
 }
 .cyanbg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
 }
 .eraser {
-  position: absolute;
-  top: 115px;
-  left: 117px;
+	position: absolute;
+	top: 115px;
+	left: 117px;
 }
 .eraserbg {
-  width: 60px;
-  height: 60px;
-  background-color: rgb(247, 247, 247);
-  position: absolute;
-  top: 105px;
-  left: 110px;
-  border-radius: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(247, 247, 247);
+	position: absolute;
+	top: 105px;
+	left: 110px;
+	border-radius: 15px;
 }
 .straightline {
-  position: absolute;
-  top: 190px;
-  left: 117px;
+	position: absolute;
+	top: 190px;
+	left: 117px;
 }
 .straightlinebg {
-  width: 60px;
-  height: 60px;
-  background-color: rgb(247, 247, 247);
-  position: absolute;
-  top: 180px;
-  left: 110px;
-  border-radius: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(247, 247, 247);
+	position: absolute;
+	top: 180px;
+	left: 110px;
+	border-radius: 15px;
 }
 .square {
-  position: absolute;
-  top: 265px;
-  left: 120px;
+	position: absolute;
+	top: 265px;
+	left: 120px;
 }
 .squarebg {
-  width: 60px;
-  height: 60px;
-  background-color: rgb(247, 247, 247);
-  position: absolute;
-  top: 255px;
-  left: 110px;
-  border-radius: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(247, 247, 247);
+	position: absolute;
+	top: 255px;
+	left: 110px;
+	border-radius: 15px;
 }
-.circle{
-    position: absolute;
-    top: 340px;
-    left: 120px;
+.circle {
+	position: absolute;
+	top: 340px;
+	left: 120px;
 }
-.circlebg{
-  width: 60px;
-  height: 60px;
-  background-color: rgb(247, 247, 247);
-  position: absolute;
-  top: 330px;
-  left: 110px;
-  border-radius: 15px;
+.circlebg {
+	width: 60px;
+	height: 60px;
+	background-color: rgb(247, 247, 247);
+	position: absolute;
+	top: 330px;
+	left: 110px;
+	border-radius: 15px;
 }
-.triangle{
-  position: absolute;
-  top: 415px;
-  left: 120px;
+.triangle {
+	position: absolute;
+	top: 415px;
+	left: 120px;
 }
-.trianglebg{
-  width: 60px;
-  height: 60px;
-  background-color: rgb(247, 247,247);
-  position: absolute;
-  top: 405px;
-  left: 110px;
-  border-radius: 15px;
+.trianglebg {
+	width: 60px;
+	height: 60px;
+	background-color: rgb(247, 247, 247);
+	position: absolute;
+	top: 405px;
+	left: 110px;
+	border-radius: 15px;
 }
-.size{
-    position: absolute;
-    top: 420px;
-    left: -2px;
-    transform: rotate(270deg);
+.size {
+	position: absolute;
+	top: 420px;
+	left: -2px;
+	transform: rotate(270deg);
 }
-.reset{
-    position: absolute;
-    font-size: 20px;
-    left: 35px;
-    top: 620px;
-    background-color: rgb(247, 247, 247);
-    border-radius: 10px;
+.reset {
+	position: absolute;
+	font-size: 20px;
+	left: 35px;
+	top: 620px;
+	background-color: rgb(247, 247, 247);
+	border-radius: 10px;
+}
+@media (max-width: 450px) {
+	.frame {
+		flex-direction: column;
+		width: 375px;
+		height: 810px;
+	}
+	.tools {
+		position: relative;
+		right: 300px;
+	}
+	#draw {
+		width: 375px;
+		height: 810px;
+	}
 }

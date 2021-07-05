@@ -51,9 +51,9 @@ canvas.addEventListener('mousedown', (e) => {
 });
 
 
-canvas.addEventListener('mousemove', draw);
-canvas.addEventListener('mouseup', () => isDrawing = false);
-canvas.addEventListener('mouseout', () => isDrawing = false);
+canvas.addEventListener('mousemove touchstart', draw);
+canvas.addEventListener('mouseup touchend', () => isDrawing = false);
+canvas.addEventListener('mouseout touchcancel' , () => isDrawing = false);
 
 // change color
 const black = document.querySelector('.black');
